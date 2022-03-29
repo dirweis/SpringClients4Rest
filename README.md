@@ -7,4 +7,6 @@ Comparison for the 3 commonly used REST clients in Spring:
 
 The clients fire the requests on the .Net REST example project, see also the [Microsoft Tutorial](https://docs.microsoft.com/de-de/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio).
 
-:warning: **Don't forget to update the files `client.keystore` and `server.truststore`**. Else deactivate the HTTPS connection in the .Net service.
+:warning: **Don't forget to update the files `client.keystore` and `server.truststore`**.
+
+Else you have to deactivate the HTTPS connection in the .Net service.
