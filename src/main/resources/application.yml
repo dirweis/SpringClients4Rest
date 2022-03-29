@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    log-resolved-exception: true
+  jackson:
+    default-property-inclusion: NON_NULL
+doch:
+  net:
+    baseUrl: http://localhost:5021
+    security:
+      client_pw: client_password
+      server_pw: server_password
+      baseUrl: https://localhost:7021
